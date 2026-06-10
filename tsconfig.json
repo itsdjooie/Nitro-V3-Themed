@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": false,
+        "module": "ES2022",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@layout/*": [
+                "./src/layout/*"
+            ],
+            "@/*": [
+                "./src/*"
+            ],
+            "pixi.js": [
+                "../Nitro_Render_V3/node_modules/pixi.js"
+            ],
+            "@nitrots/nitro-renderer": [
+                "../Nitro_Render_V3/index.ts"
+            ],
+            "@nitrots/*": [
+                "../Nitro_Render_V3/packages/*/src/index.ts"
+            ]
+        }
+    },
+    "include": [
+        "src",
+        "node_modules/@nitrots/nitro-renderer/src/**/*.ts"
+    ]
+}
