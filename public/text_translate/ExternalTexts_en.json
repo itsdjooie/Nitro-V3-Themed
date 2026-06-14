@@ -48118,5 +48118,6 @@
 	"navigator.no.results": "None",
     "group.forum.enable.caption": "Enable / Disable group forum",
     "group.forum.enable.help": "If you disable the group forum, all posts will also be deleted!",
+    "usersettings.menu.password.title": "Change your password",
     "groupforum.view.no_threads": "There are currently no active threads"
 }
